@@ -451,7 +451,7 @@
 				</div> <!-- cd-faq-content -->
 			</li>
 			<li>
-				<a class="cd-faq-trigger" href="#0">yaYEET_xD</a>
+				<a onclick="playSound();" class="cd-faq-trigger" href="#0">yaYEET_xD</a>
 				<div class="cd-faq-content">
 				<p>
 					Most retarded of them all, vanity moderator for nymn
@@ -467,6 +467,13 @@
 <footer>
 made with love by <a href="http://twitch.tv/gempir" class="link"> gempir </a>
 </footer>
+<script>
+	function playSound() {
+        var sound = document.getElementById("flying_fricks");
+        sound.play();
+	}
+</script>
+<audio id="flying_fricks" src="flying_fucks.mp3"></audio>
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
